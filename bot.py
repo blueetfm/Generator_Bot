@@ -15,8 +15,10 @@ from telegram.error import TelegramError
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "7175031755:AAFffMwivVxUvhSDjyO4Gt8cNd4Oz9rDOYU" 
-CHANNEL_ID = "-1002478959418"
+
+
+BOT_TOKEN = "insert your bot token"
+CHANNEL_ID = "insert your channel id"
 
 bot = Bot(token=BOT_TOKEN)
 
